@@ -18,5 +18,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('pay/success', [FatoorahController::class, 'successMessage']);
 Route::get('pay/error', [FatoorahController::class, 'errorMessage']);
